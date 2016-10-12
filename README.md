@@ -1,8 +1,4 @@
-# roommate folder
-
 I've left some comments in the Roommate/roommate/ folder for each file. Please read them in this order: 'settings.py', '__init__.py', and 'urls.py'. I put '#' around my comments.
-
-# Added folders
 
 ## Templates
 
