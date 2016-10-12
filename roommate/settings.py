@@ -1,3 +1,20 @@
+###################################################################################
+# This file is pretty complicated.                                                #
+# When starting a new app, be sure to add the app that you add created with       #
+# django-admin createapp {some name} into the installed app.                      #
+# You can see here that I have added 'match' because 'match' is in                #
+# another directory than this file.                                               #
+#                                                                                 #
+# For 'TEMPLATES', notice that I have "os.path.join(BASE_DIR, "templates")" for   #
+# the "DIRS" field. This isn't done automatically and is necessary if you want to #
+# create a template folder in the root directory.                                 #
+#                                                                                 #
+# Later, we want to change the database to use a MongoDB engine.                  #
+# The 'name' field will also have to change to the name of the                    #
+# database. You can access the mongo database anywhere so you only                #
+# need to put in the name without any os.path or anything.                        #
+###################################################################################
+
 """
 Django settings for Roommate project.
 
