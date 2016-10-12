@@ -1,6 +1,6 @@
 ###################################################################################
 # This file is pretty complicated.                                                #
-# When starting a new app, be sure to add the app that you add created with       #
+# When starting a new app, be sure to add the app that you created with       #
 # django-admin createapp {some name} into the installed app.                      #
 # You can see here that I have added 'match' because 'match' is in                #
 # another directory than this file.                                               #
